@@ -1,40 +1,36 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <style>
-        .menu-page { background: #0a0a0a; min-height: 100vh; padding-top: 120px; color: white; }
-        .menu-container { max-width: 800px; margin: 0 auto; padding: 20px; }
-        .item { display: flex; justify-content: space-between; border-bottom: 1px dashed #333; padding: 20px 0; }
-        .item h4 { color: #d4af37; font-family: 'Playfair Display'; font-size: 1.3rem; }
-        .item p { color: #888; font-size: 0.9rem; }
-        .price { color: #d4af37; font-weight: bold; }
-        .back-btn { display: inline-block; color: white; text-decoration: none; border: 1px solid #d4af37; padding: 10px 20px; margin-bottom: 40px; }
-    </style>
-</head>
 <body class="menu-page">
-    <nav class="navbar"><div class="logo-container"><img src="local.png" class="nav-logo"></div></nav>
-    
+    <nav class="navbar">
+        <div class="logo-container">
+            <a href="index.html"><img src="local.png" alt="Bora Lounge Logo" class="nav-logo"></a>
+        </div>
+        <a href="index.html#carta" class="back-btn">VOLVER A LA CARTA</a>
+    </nav>
+
     <div class="menu-container">
-        <a href="index.html#carta" class="back-btn">← VOLVER</a>
-        <h2 style="text-align: center; margin-bottom: 50px;">NUESTROS <span class="gold-text">BATIDOS</span></h2>
+        <div class="section-header">
+            <span class="sub">SWEET & CREAMY</span>
+            <h2>NUESTROS <span class="gold-text">BATIDOS</span></h2>
+        </div>
 
         <div class="item">
-            <div><h4>Oreo Premium</h4><p>Helado de vainilla y trozos de galleta original.</p></div>
-            <span class="price">7.50€</span>
+            <h4>Kit Kat</h4>
+            <span class="price">6.00 €</span>
         </div>
         <div class="item">
-            <div><h4>Kinder Bueno White</h4><p>Chocolate blanco y avellana crujiente.</p></div>
-            <span class="price">8.00€</span>
+            <h4>Kinder Bueno</h4>
+            <span class="price">6.00 €</span>
         </div>
         <div class="item">
-            <div><h4>Fresa & Nata</h4><p>Fresas naturales y crema batida.</p></div>
-            <span class="price">7.00€</span>
+            <h4>Oreo</h4>
+            <span class="price">6.00 €</span>
+        </div>
+        <div class="item">
+            <h4>Galleta Lotus</h4>
+            <span class="price">6.00 €</span>
+        </div>
+        <div class="item">
+            <h4>Galleta Dinosaurio</h4>
+            <span class="price">6.00 €</span>
         </div>
     </div>
-    <script>lucide.createIcons();</script>
 </body>
-</html>
